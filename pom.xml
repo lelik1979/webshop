@@ -8,17 +8,6 @@
     <name>webshop Maven Webapp</name>
     <url>http://maven.apache.org</url>
 
-    <repositories>
-        <repository>
-            <id>my-repo1</id>
-            <name>DMG nexus server</name>
-            <url>http://127.0.0.1:18081/nexus</url>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </repository>
-    </repositories>
-
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spring.version>3.2.10.RELEASE</spring.version>
