@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/">
+    <Resource name="jdbc/beadDS" auth="Container" type="javax.sql.DataSource"
+              maxActive="100" maxIdle="30" maxWait="10000"
+              username="test1" password="test1" driverClassName="oracle.jdbc.OracleDriver"
+              url="jdbc:oracle:thin:@//127.0.0.1:1521/TEST1"/>
+</Context>
